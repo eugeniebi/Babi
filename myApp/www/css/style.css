@@ -1,1 +1,21 @@
-/* Empty. Add your own CSS if you like */
+.button.button-calm {
+    border-color: transparent;
+    background-color: #387ef5;
+    margin: 0;
+    padding: 0 12px;
+    min-width: 52px;
+    min-height: 47px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    vertical-align: top;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: 42px;
+    cursor: pointer;
+}
+
+a {
+    color: #fff;
+    font-size: 16px;
+}
