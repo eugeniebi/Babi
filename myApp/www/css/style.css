@@ -36,3 +36,15 @@ h1{
     font-weight: bold;
     font-family: 'Dosis', sans-serif;
 }
+
+h3{
+    font-size: 12px;
+}
+
+.photo{
+    background-color:#DFD3D3;    
+    height: 35px;
+    margin-top: -31px;
+    width: 130px;
+    margin-left: 26px;
+}
