@@ -1,5 +1,14 @@
 <ion-view view-title="HOME">
-  <ion-content>
-    	
-  </ion-content>
+  <ion-content scroll="false">
+      <div ng-controller="PlaylistsCtrl as vm">
+        <ion-slide-box show-pager="true" on-slide-changed="vm.onSlideChanged($index)">
+          <ion-slide ng-repeat="item in vm.items">
+            <div class="box">
+              <h2>{{item.title}}</h2>
+              <img src="{{item.desc}}" class="img"/>
+            </div>
+          </ion-slide>
+        </ion-slide-box>    
+      </div>
+    </ion-content>  
 </ion-view>
