@@ -20,16 +20,10 @@ a {
     font-size: 16px;
 }
 
+.img{width: 100%;}
 
-.gif{
-    width: 200px;
-    margin-top: -8%;
-}
-
-.img{margin: 26px;
-width: 130px;
-}
-
+.coupc{padding: 0px!important;
+margin-top: -5px;}
 h1{
     font-size:21px;
     margin-top: -10px;
@@ -37,9 +31,7 @@ h1{
     font-family: 'Dosis', sans-serif;
 }
 
-h3{
-    font-size: 12px;
-}
+h5{font-size: 15px;}
 
 .photo{
     background-color:#DFD3D3;    
