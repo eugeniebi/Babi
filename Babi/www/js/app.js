@@ -22,3 +22,9 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+
+function ContentController($scope, $ionicSideMenuDelegate) {
+  $scope.toggleLeft = function() {
+    $ionicSideMenuDelegate.toggleLeft();
+  };
+}
