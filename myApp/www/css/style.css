@@ -23,8 +23,16 @@ a {
 
 .gif{
     width: 200px;
+    margin-top: -8%;
+}
+
+.img{margin: 26px;
+width: 130px;
 }
 
 h1{
-    font-size:12px;
+    font-size:21px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
 }
