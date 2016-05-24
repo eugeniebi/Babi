@@ -1,3 +1,65 @@
+
+/* PAGE COUPS COEUR*/
+
+.coupc{
+    padding: 0px!important;
+    margin-top: -5px;
+}
+
+h3{color: white;}
+
+.divtext{
+    width: 100%;
+    background-color: #D7BFBF;
+    height: 119px;
+}
+
+/* FIN PAGE COUPS COEUR*/
+
+
+/* PAGE HOME*/
+.slider{
+  height: 300px;
+  background-color: #eee;
+}
+/* FIN PAGE HOME*/
+
+
+/* PAGE RECETTE EN DETAIL*/
+.rondj{
+       -webkit-border-radius:200px;
+       -moz-border-radius:200px;
+       border-radius:200px;
+       width: 300px;
+       height:300px;
+       border-color:#f1f1f1;
+       border-width: 8px;
+       border-style: solid;
+       background: url(../img/slide3.jpg);
+       margin-left: 11%;
+}
+/* FIN PAGE RECETTE EN DETAIL*/
+
+
+
+h3{color: white;}
+
+h5{font-size: 15px;}
+
+.photo{
+    background-color:#DFD3D3;    
+    height: 35px;
+    margin-top: -31px;
+    width: 130px;
+    margin-left: 26px;
+}
+h1{
+    font-size:21px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
 .button.button-calm {
     border-color: transparent;
     background-color: #387ef5;
@@ -15,39 +77,14 @@
     cursor: pointer;
 }
 
-a {
+a{
     color: #fff;
     font-size: 16px;
 }
 
 .img{width: 100%;}
 
-.coupc{padding: 0px!important;
-margin-top: -5px;}
-h1{
-    font-size:21px;
-    margin-top: -10px;
-    font-weight: bold;
-    font-family: 'Dosis', sans-serif;
-}
 
-h5{font-size: 15px;}
 
-h3{color: white;}
 
-.photo{
-    background-color:#DFD3D3;    
-    height: 35px;
-    margin-top: -31px;
-    width: 130px;
-    margin-left: 26px;
-}
 
-.slider {
-  height: 300px;
-  background-color: #eee;
-}
-
-.div{width: 90%;
-background-color: #D7BFBF;
-height: 119px;}
