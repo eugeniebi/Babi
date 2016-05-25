@@ -3,7 +3,7 @@
 
 .coupc{
     padding: 0px!important;
-    margin-top: -5px;
+    margin-top: -7px;
 }
 
 h3{color: white;}
@@ -25,40 +25,44 @@ h3{color: white;}
 /* FIN PAGE HOME*/
 
 
-/* PAGE RECETTE EN DETAIL*/
-.rondj{
-       -webkit-border-radius:200px;
-       -moz-border-radius:200px;
-       border-radius:200px;
-       width: 300px;
-       height:300px;
-       border-color:#f1f1f1;
-       border-width: 8px;
-       border-style: solid;
-       background: url(../img/slide3.jpg);
-       margin-left: 11%;
+
+/* PAGE RECETTE TYPE*/
+
+.recettepers{
+      background: url(../img/frecette1.jpg)no-repeat center center fixed;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
-/* FIN PAGE RECETTE EN DETAIL*/
 
-
-
-h3{color: white;}
-
-h5{font-size: 15px;}
-
-.photo{
-    background-color:#DFD3D3;    
-    height: 35px;
-    margin-top: -31px;
-    width: 130px;
-    margin-left: 26px;
+.fondf{
+  background-color: white;
+  opacity: 0.9;
 }
-h1{
-    font-size:21px;
-    margin-top: -10px;
-    font-weight: bold;
-    font-family: 'Dosis', sans-serif;
+
+h2{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
 }
+
+p{
+  font-size: 13px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+}
+
+.img3{width: 30px;}
+
+.titreR{padding: 20%;}
+
+/* FIN PAGE RECETTE TYPE*/
+
+
+/* PAGE LOGIN*/
 
 .button.button-calm {
     border-color: transparent;
@@ -81,8 +85,56 @@ a{
     color: #fff;
     font-size: 16px;
 }
+/* FIN PAGE LOGIN*/
+
+
+
+
+/* PAGE RECETTE EN DETAIL
+.rondj{
+       -webkit-border-radius:200px;
+       -moz-border-radius:200px;
+       border-radius:200px;
+       width: 300px;
+       height:300px;
+       border-color:#f1f1f1;
+       border-width: 8px;
+       border-style: solid;
+       background: url(../img/slide3.jpg);
+       margin-left: 11%;
+}
+/* FIN PAGE RECETTE EN DETAIL*/
+
+
+
+h3{color: white;}
+
+h5{font-size: 15px;}
+
+
+h1{
+    font-size:21px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
+.photo{
+    background-color:#DFD3D3;    
+    height: 35px;
+    margin-top: -31px;
+    width: 130px;
+    margin-left: 26px;
+}
+
+
+
+
 
 .img{width: 100%;}
+
+
+
 
 
 
