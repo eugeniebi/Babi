@@ -116,6 +116,29 @@ a{
 
 
 
+/* BARRE MENU*/
+
+/*.bar.bar-energized{background-color: #FF7F50!important;}*/
+.item{border-style: none!important;}
+.item-content:hover{background-color: #FFC900; color: white;}
+.item-content.activated{background-color:#FFC900!important; color: white;}
+
+.title2{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    top: 10px;
+    font-weight: 100;
+}
+.list{margin-top: -29px!important;}
+/* FIN BARRE MENU*/
+
+
+
 h3{
     color: white;
 }
@@ -144,10 +167,8 @@ h1{
     width: 100%;
 }
 
-
-
-
-
+.gif{width: 40%;
+margin-left: 28%;}
 
 
 
