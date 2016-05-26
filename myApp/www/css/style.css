@@ -6,7 +6,9 @@
     margin-top: -7px;
 }
 
-h3{color: white;}
+h3{
+    color: white;
+}
 
 .divtext{
     width: 100%;
@@ -19,8 +21,8 @@ h3{color: white;}
 
 /* PAGE HOME*/
 .slider{
-  height: 300px;
-  background-color: #eee;
+    height: 300px;
+    background-color: #eee;
 }
 /* FIN PAGE HOME*/
 
@@ -28,36 +30,43 @@ h3{color: white;}
 
 /* PAGE RECETTE TYPE*/
 
-.recettepers{
-      background: url(../img/frecette1.jpg)no-repeat center center fixed;
-      background-position: center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-}
-
 .fondf{
-  background-color: white;
-  opacity: 0.9;
+    background-color: white;
+    opacity: 0.9;
 }
 
 h2{
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
 }
 
 p{
-  font-size: 13px;
-  font-family: 'Dosis', sans-serif;
-  font-weight: bold;
+    font-size: 13px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
 }
 
-.img3{width: 30px;}
+.img3{
+    width: 30px;
+}
 
-.titreR{padding: 20%;}
+.titreR{
+    padding: 16%;
+}
+
+#bloc1{
+    height:750px;
+    background:url(../img/frecette1.jpg);
+    padding:0!important;
+    background-attachment:fixed;
+}
+
+#bloc2{
+    height:auto;
+    background:white;
+}
 
 /* FIN PAGE RECETTE TYPE*/
 
@@ -90,26 +99,30 @@ a{
 
 
 
-/* PAGE RECETTE EN DETAIL
+/* PAGE RECETTE EN DETAIL/* 
 .rondj{
-       -webkit-border-radius:200px;
-       -moz-border-radius:200px;
-       border-radius:200px;
-       width: 300px;
-       height:300px;
-       border-color:#f1f1f1;
-       border-width: 8px;
-       border-style: solid;
-       background: url(../img/slide3.jpg);
-       margin-left: 11%;
+    -webkit-border-radius:200px;
+    -moz-border-radius:200px;
+    border-radius:200px;
+    width: 300px;
+    height:300px;
+    border-color:#f1f1f1;
+    border-width: 8px;
+    border-style: solid;
+    background: url(../img/slide3.jpg);
+    margin-left: 11%;
 }
 /* FIN PAGE RECETTE EN DETAIL*/
 
 
 
-h3{color: white;}
+h3{
+    color: white;
+}
 
-h5{font-size: 15px;}
+h5{
+    font-size: 15px;
+}
 
 
 h1{
@@ -127,11 +140,9 @@ h1{
     margin-left: 26px;
 }
 
-
-
-
-
-.img{width: 100%;}
+.img{
+    width: 100%;
+}
 
 
 
