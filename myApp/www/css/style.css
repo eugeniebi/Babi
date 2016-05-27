@@ -30,11 +30,6 @@ h3{
 
 /* PAGE RECETTE TYPE*/
 
-.fondf{
-    background-color: white;
-    opacity: 0.9;
-}
-
 h2{
     color: white;
     font-size: 20px;
@@ -56,17 +51,18 @@ p{
     padding: 16%;
 }
 
-#bloc1{
-    height:750px;
-    background:url(../img/frecette1.jpg);
-    padding:0!important;
-    background-attachment:fixed;
+.elastic-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Initial image height: */
+    height: 300px;
 }
 
-#bloc2{
-    height:auto;
-    background:white;
+.padding {
+    padding: 0!important;
 }
+
 
 /* FIN PAGE RECETTE TYPE*/
 
@@ -95,25 +91,6 @@ a{
     font-size: 16px;
 }
 /* FIN PAGE LOGIN*/
-
-
-
-
-/* PAGE RECETTE EN DETAIL/* 
-.rondj{
-    -webkit-border-radius:200px;
-    -moz-border-radius:200px;
-    border-radius:200px;
-    width: 300px;
-    height:300px;
-    border-color:#f1f1f1;
-    border-width: 8px;
-    border-style: solid;
-    background: url(../img/slide3.jpg);
-    margin-left: 11%;
-}
-/* FIN PAGE RECETTE EN DETAIL*/
-
 
 
 /* BARRE MENU*/
