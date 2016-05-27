@@ -5,7 +5,7 @@
     padding: 0px!important;
     margin-top: -7px;
 }
-
+ /*h3 titre display: ans le coup de coeur*/
 h3{
     color: white;
 }
@@ -30,11 +30,20 @@ h3{
 
 /* PAGE RECETTE TYPE*/
 
+/* titres de la recette */
 h2{
     color: white;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
     font-family: 'Dosis', sans-serif;
+}
+
+.text-recette p{
+    font-size: 13px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    padding: 6%;
 }
 
 p{
@@ -42,6 +51,7 @@ p{
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
 }
+
 
 .img3{
     width: 30px;
@@ -63,8 +73,18 @@ p{
     padding: 0!important;
 }
 
-.point{width: 73%;}
+.point{
+    width: 73%;
+}
 
+.text-recette .point {
+    width: 90%;
+    margin-left: 4%;
+}
+
+.text-center {
+    text-align: 0;
+}
 /* FIN PAGE RECETTE TYPE*/
 
 
@@ -123,19 +143,10 @@ a{
     font-weight: 100;
 }
 .list{margin-top: -29px!important;}
+
 /* FIN BARRE MENU*/
 
-
-
-h3{
-    color: white;
-}
-
-h5{
-    font-size: 15px;
-}
-
-
+/* h1 titre du logo */
 h1{
     font-size:21px;
     margin-top: -10px;
