@@ -63,6 +63,7 @@ p{
     padding: 0!important;
 }
 
+.point{width: 73%;}
 
 /* FIN PAGE RECETTE TYPE*/
 
@@ -96,17 +97,17 @@ a{
 /* BARRE MENU*/
 
 .bar.bar-energized{
-    background-color: #FFB1B1!important;
+    background-color: #FFB19F!important;
     border-color: #FFB1B1!important;
 }
 .item{border-style: none!important;}
 
 .item-content:hover{
-    background-color: #FFC900; 
+    background-color: #FFB19F!important; 
     color: white;
 }
 .item-content.activated{
-    background-color:#FFC900!important; 
+    background-color:#FFB19F!important; 
     color: white;
 }
 
