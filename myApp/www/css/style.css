@@ -118,10 +118,20 @@ a{
 
 /* BARRE MENU*/
 
-/*.bar.bar-energized{background-color: #FF7F50!important;}*/
+.bar.bar-energized{
+    background-color: #FFB1B1!important;
+    border-color: #FFB1B1!important;
+}
 .item{border-style: none!important;}
-.item-content:hover{background-color: #FFC900; color: white;}
-.item-content.activated{background-color:#FFC900!important; color: white;}
+
+.item-content:hover{
+    background-color: #FFC900; 
+    color: white;
+}
+.item-content.activated{
+    background-color:#FFC900!important; 
+    color: white;
+}
 
 .title2{
     font-family: 'Lobster', cursive;
