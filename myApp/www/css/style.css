@@ -8,12 +8,9 @@
  /*h3 titre display: ans le coup de coeur*/
 h3{
     color: white;
-}
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
 
-.divtext{
-    width: 100%;
-    background-color: #D7BFBF;
-    height: 119px;
 }
 
 /* FIN PAGE COUPS COEUR*/
