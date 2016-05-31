@@ -86,6 +86,26 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
+    .state('app.recette5', {
+      url: '/recette5',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/recette5.html',
+          controller: 'Recette5Ctrl'
+        }
+      }
+    })
+
+    .state('app.recette6', {
+      url: '/recette6',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/recette6.html',
+          controller: 'Recette6Ctrl'
+        }
+      }
+    })
+
     .state('app.playlists', {
       url: '/playlists',
       views: {
