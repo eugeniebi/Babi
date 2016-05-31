@@ -169,8 +169,19 @@ h1{
     
 }
 
-.gif{width: 40%;
-margin-left: 28%;}
+.gif{
+    width: 40%;
+    margin-left: 28%;
+}
 
+.iconc{
+    width: 20%;
+    margin-top: -7px;
+}
 
+.text-recette{text-align: justify;}
 
+h4{
+    color: black;
+font-size: 18px;
+font-family: 'Dosis', sans-serif;}
