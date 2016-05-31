@@ -86,6 +86,12 @@ p{
 .etiquette{
     margin-top: -13%;
 }
+
+.iconc{
+    width: 20%;
+    margin-top: -7px;
+    margin-left: 40%;
+}
 /* FIN PAGE RECETTE TYPE*/
 
 
@@ -174,10 +180,7 @@ h1{
     margin-left: 28%;
 }
 
-.iconc{
-    width: 20%;
-    margin-top: -7px;
-}
+
 
 .text-recette{text-align: justify;}
 
