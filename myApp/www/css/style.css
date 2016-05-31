@@ -180,11 +180,25 @@ h1{
     margin-left: 28%;
 }
 
+.text-recette{
+    text-align: justify;
+}
 
-
-.text-recette{text-align: justify;}
-
+/**PAGE HOME*/
 h4{
     color: black;
 font-size: 18px;
 font-family: 'Dosis', sans-serif;}
+
+.border {
+    border: 1px solid black;
+    height: 250px;
+    margin: 2px;
+}
+
+.imgh{
+    width: 167px;
+    height: 239px;
+}
+
+/* FIN PAGE HOME*/
