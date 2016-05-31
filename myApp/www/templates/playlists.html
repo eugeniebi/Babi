@@ -1,5 +1,5 @@
 <ion-view view-title="HOME">
-  <ion-content scroll="false">
+  <ion-content >
       <div ng-controller="PlaylistsCtrl as vm">
         <ion-slide-box show-pager="true" on-slide-changed="vm.onSlideChanged($index)">
           <ion-slide ng-repeat="item in vm.items">
@@ -13,6 +13,34 @@
           </ion-slide>
         </ion-slide-box>    
       </div>
-      <h3>kejdlkzejf</h3>
+      <div class="text-center">
+        <h4>Vos petites recettes du jour </h4>
+
+        <p> In the kitchen vous présente chaque semaine des recettes simples à réaliser !</p>
+      </div>
+      <div class="row">
+        <div class="col border">
+          <img src="img/food8.jpg" alt="photo" class="imgh">
+        </div>
+        <div class="col border">
+         <img src="img/food9.jpg" alt="photo" class="imgh">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col border">
+          <img src="img/melon.jpg" alt="photo" class="imgh">
+        </div>
+        <div class="col border">
+         <img src="img/bagelmiel.jpg" alt="photo" class="imgh">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col border">
+          <img src="img/food8.jpg" alt="photo" class="imgh">
+        </div>
+        <div class="col border">
+         <img src="img/food9.jpg" alt="photo" class="imgh">
+        </div>
+      </div>
     </ion-content>  
 </ion-view>
