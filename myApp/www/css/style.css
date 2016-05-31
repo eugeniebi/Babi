@@ -184,6 +184,14 @@ h1{
     text-align: justify;
 }
 
+.bar.bar-energized .title{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+}
+
 /**PAGE HOME*/
 h4{
     color: black;
@@ -191,11 +199,14 @@ font-size: 18px;
 font-family: 'Dosis', sans-serif;}
 
 .border {
-    border: 1px solid black;
-    height: 250px;
+    
+    border: 1px solid #E3E2E2;
+    height: auto;
     margin: 2px;
+    background-color: #F2EFEF;
+    padding: 0;
 }
-
+.row{padding: 16px!important;}
 .imgh{
     width: 167px;
     height: 239px;

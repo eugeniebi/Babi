@@ -1,4 +1,4 @@
-<ion-view view-title="HOME">
+<ion-view view-title="In the Kitchen">
   <ion-content >
       <div ng-controller="PlaylistsCtrl as vm">
         <ion-slide-box show-pager="true" on-slide-changed="vm.onSlideChanged($index)">
@@ -20,18 +20,28 @@
       </div>
       <div class="row">
         <div class="col border">
-          <img src="img/food8.jpg" alt="photo" class="imgh">
+          <a ui-sref="app.recette5"><img src="img/melon.jpg" alt="photo" class="imgh"></a>
+          <p>Lundi on culpabilise des excés du week-end..</p>
+          <p>alors ce sera une petite salade a l'italienne</p>
+             
         </div>
+
         <div class="col border">
-         <img src="img/food9.jpg" alt="photo" class="imgh">
+         <a ui-sref="app.recette4"><img src="img/food9.jpg" alt="photo" class="imgh"></a>
+         <p>Mardi c'est poilé de poulet au parmesan en sauce</p>
+          <p>Pour une soirée en amoureux</p>
         </div>
       </div>
       <div class="row">
         <div class="col border">
-          <img src="img/melon.jpg" alt="photo" class="imgh">
+          <a ui-sref="app.recette3"><img src="img/food8.jpg" alt="photo" class="imgh"></a>
+          <p>Mercredi, un poulet au parmesan</p>
+          <p>Petite recette pour épater vos amis!</p>
         </div>
         <div class="col border">
-         <img src="img/bagelmiel.jpg" alt="photo" class="imgh">
+         <a ui-sref="app.recette6"><img src="img/bagelmiel.jpg" alt="photo" class="imgh"></a>
+         <p>Jeudi c'est soirée match</p>
+          <p>ce sera Bagel devant la télé!</p>
         </div>
       </div>
       <div class="row">
