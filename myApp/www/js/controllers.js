@@ -67,6 +67,9 @@ angular.module('starter.controllers', [])
 .controller('Recette3Ctrl', function($scope, $stateParams) {
 })
 
+.controller('Recette4Ctrl', function($scope, $stateParams) {
+})
+
 .directive('elasticImage', function($ionicScrollDelegate) {
   return {
     restrict: 'A',
