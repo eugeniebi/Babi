@@ -92,6 +92,7 @@ p{
     margin-top: -7px;
     margin-left: 40%;
 }
+.etiquettehome{margin-left: 34%;}
 /* FIN PAGE RECETTE TYPE*/
 
 
@@ -206,7 +207,7 @@ font-family: 'Dosis', sans-serif;}
     background-color: #F2EFEF;
     padding: 0;
 }
-.row{padding: 16px!important;}
+.R{padding: 16px!important;}
 .imgh{
     width: 167px;
     height: 239px;
