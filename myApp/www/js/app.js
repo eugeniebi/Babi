@@ -22,7 +22,9 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider,$ionicConfigProvider) {
+$ionicConfigProvider.navBar.alignTitle('center');
+
   $stateProvider
 
     .state('app', {
@@ -105,6 +107,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
 
     .state('app.playlists', {
       url: '/playlists',
