@@ -92,7 +92,12 @@ p{
     margin-top: -7px;
     margin-left: 40%;
 }
-.etiquettehome{margin-left: 34%;}
+.etiquettehome {
+    margin-left: 20%;
+    width: 59%;
+    margin-bottom: 20;
+    margin-top: 14%;
+}
 /* FIN PAGE RECETTE TYPE*/
 
 
