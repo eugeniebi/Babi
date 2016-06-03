@@ -117,6 +117,15 @@ $ionicConfigProvider.navBar.alignTitle('center');
         }
       }
     })
+                .state('app.recette8', {
+      url: '/recette8',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/recette8.html',
+          controller: 'Recette8Ctrl'
+        }
+      }
+    })
 
 
     .state('app.playlists', {
