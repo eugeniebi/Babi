@@ -213,7 +213,7 @@ font-family: 'Dosis', sans-serif;}
     border: 1px solid #E3E2E2;
     height: auto;
     margin: 2px;
-    background-color: #F2EFEF;
+    background-color: rgba(255, 177, 159, 0.46);
     padding: 0;
 }
 .R{padding: 16px!important;}
@@ -221,5 +221,10 @@ font-family: 'Dosis', sans-serif;}
     width: 167px;
     height: 239px;
 }
+h5{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
 
 /* FIN PAGE HOME*/

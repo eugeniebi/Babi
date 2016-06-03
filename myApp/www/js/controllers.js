@@ -44,7 +44,7 @@ angular.module('starter.controllers', [])
 .controller('PlaylistsCtrl', function($scope) {
   var vm = this;
   vm.items = [
-    {title: 'Item 1', desc: '../img/slide6.jpg'},
+    {title: 'Item 1', desc: '../img/food6.jpg'},
     {title: 'Item 2', desc: '../img/slide1.jpg'},
     {title: 'Item 2', desc: '../img/food4.jpg'}    
   ];
