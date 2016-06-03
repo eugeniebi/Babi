@@ -103,8 +103,11 @@ p{
     margin-top: 20%;
 }
 
-.the-content{background-color: white;
-    position: relative;}
+.the-content{
+    background-color: white;
+    position: relative;
+    margin-top: -9px;
+}
    
 /* FIN PAGE RECETTE TYPE*/
 
