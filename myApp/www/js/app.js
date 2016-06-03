@@ -108,6 +108,16 @@ $ionicConfigProvider.navBar.alignTitle('center');
       }
     })
 
+        .state('app.recette7', {
+      url: '/recette7',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/recette7.html',
+          controller: 'Recette7Ctrl'
+        }
+      }
+    })
+
 
     .state('app.playlists', {
       url: '/playlists',
