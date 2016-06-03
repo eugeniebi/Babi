@@ -206,24 +206,34 @@ h1{
 h4{
     color: black;
 font-size: 18px;
-font-family: 'Dosis', sans-serif;}
+font-family: 'Dosis', sans-serif;
+}
 
 .border {
-    
-    border: 1px solid #E3E2E2;
     height: auto;
     margin: 2px;
-    background-color: rgba(255, 177, 159, 0.46);
     padding: 0;
+    box-shadow: 2px 2px 5px #C7C7C7;
 }
-.R{padding: 16px!important;}
+
+.border p {
+    color: #7F7D7D;
+    text-align: center;
+}
+
+.R{
+    padding: 16px!important;
+}
+
 .imgh{
     width: 167px;
     height: 239px;
 }
+
 h5{
     font-family: 'Lobster', cursive;
     text-align: center;
+    color: #FFB19F;
 }
 
 
