@@ -97,10 +97,12 @@ p{
     margin-left: 40%;
 }
 .etiquettehome {
-    margin-left: 20%;
-    width: 59%;
-    margin-bottom: 20;
-    margin-top: 20%;
+    
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    
 }
 
 .the-content{
