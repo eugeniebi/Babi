@@ -127,6 +127,15 @@ $ionicConfigProvider.navBar.alignTitle('center');
       }
     })
 
+    .state('app.ajout', {
+    url: '/ajout',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/ajout.html',
+        controller: 'AjoutCtrl'
+      }
+    }
+    })
 
     .state('app.playlists', {
       url: '/playlists',
@@ -136,7 +145,8 @@ $ionicConfigProvider.navBar.alignTitle('center');
           controller: 'PlaylistsCtrl'
         }
       }
-    })
+      })
+    
 
   .state('app.single', {
     url: '/playlists/:playlistId',
@@ -146,7 +156,8 @@ $ionicConfigProvider.navBar.alignTitle('center');
         controller: 'PlaylistCtrl'
       }
     }
-  });
+  })
+  
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/playlists');
 });
