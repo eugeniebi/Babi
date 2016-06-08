@@ -82,7 +82,14 @@ angular.module('starter.controllers', [])
 .controller('Recette8Ctrl', function($scope, $stateParams) {
 })
 
-.controller('InternauteCtrl', function($scope, $stateParams) {
+.controller('AffichageCtrl', function($scope, $stateParams, $http) {
+  affichageRecette();
+  function affichageRecette(){
+    $http.post("http://localhost:8888/Babi/myApp/www/php/affichage.php").success(function (data){
+      $scope.recettes=data;
+      console.log($scope.recettes);
+    })
+  }
 })
 
 .controller('AddCtrl', function($scope, $stateParams, $http) {

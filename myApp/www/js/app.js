@@ -147,16 +147,15 @@ $ionicConfigProvider.navBar.alignTitle('center');
       }
       })
 
-    .state('app.internaute', {
-      url: '/internaute',
+    .state('app.affichage', {
+      url: '/affichage',
       views: {
         'menuContent': {
-          templateUrl: 'templates/internaute.html',
-          controller: 'InternauteCtrl'
+          templateUrl: 'templates/affichage.html',
+          controller: 'AffichageCtrl'
         }
       }
       })
-    
 
   .state('app.single', {
     url: '/playlists/:playlistId',

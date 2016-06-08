@@ -2,9 +2,6 @@
 error_reporting(E_ALL);
 ini_set('display_errors',1);
 
-
-//mysql_query("INSERT INTO recette(`name`, `ingredients`, `description`, `img`, `time`)VALUES('".$name."','".$ingredients."','".$description."','".$img."','".$time."')");
-
 	//http://stackoverflow.com/questions/18382740/cors-not-working-php
 	if (isset($_SERVER['HTTP_ORIGIN'])) {
         header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
@@ -36,7 +33,6 @@ try {
 catch(Exception $e) {
     exit('Erreur : ' . $e->getMessage());
 }
-//require_once '../includes/db.php'; // The mysql database connection script
 
 if(isset($_GET['name'])){
     $name = $_GET['name'];
