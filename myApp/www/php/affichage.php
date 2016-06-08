@@ -20,10 +20,10 @@ ini_set('display_errors',1);
         exit(0);
     }
 
-define('SQL_HOST',       'localhost');
-define('SQL_USERNAME',   'root');
-define('SQL_PASSWORD',   'root');
-define('SQL_DBNAME',     'apprecette');
+define('SQL_HOST',       'marionchoq031996.mysql.db');
+define('SQL_USERNAME',   'marionchoq031996');
+define('SQL_PASSWORD',   'MA03CY12bo17');
+define('SQL_DBNAME',     'marionchoq031996');
 
 try {
     $db = new PDO('mysql:dbname='.SQL_DBNAME.';host='.SQL_HOST, SQL_USERNAME, SQL_PASSWORD, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
@@ -34,7 +34,7 @@ catch(Exception $e) {
 }
 //require_once '../includes/db.php'; // The mysql database connection script
 
-$sql = "SELECT * FROM recette ORDER BY ID DESC";
+$sql = "SELECT * FROM recette1 ORDER BY ID DESC";
 $req = $db->prepare($sql);
 $req->execute();
 $result = $req->fetchAll(PDO::FETCH_ASSOC);

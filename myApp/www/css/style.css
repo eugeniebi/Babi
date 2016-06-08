@@ -250,6 +250,22 @@ h5{
 
 form {
     margin-top: 30px;
+    width: 95%;
+
+}
+textarea{
+    border-color: #FFB19F;
+    border-width: 1.5px;
+    border-style: solid;
 }
 
+input.ng-pristine{ border-color: #FFB19F;
+    border-width: 1.5px;
+    border-style: solid;}
+.button.button-calm{background-color: red!important;}
 /* FIN PAGE AJOUT RECETTE*/
+
+
+
+
+

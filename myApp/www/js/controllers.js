@@ -85,16 +85,16 @@ angular.module('starter.controllers', [])
 .controller('AffichageCtrl', function($scope, $stateParams, $http) {
   affichageRecette();
   function affichageRecette(){
-    $http.post("http://localhost:8888/Babi/myApp/www/php/affichage.php").success(function (data){
+    $http.post("http://marion-chevalier.com/myApp/php/affichage.php").success(function (data){
       $scope.recettes=data;
-      console.log($scope.recettes);
+      console.log(data);
     })
   }
 })
 
 .controller('AddCtrl', function($scope, $stateParams, $http) {
   $scope.addRecette = function (name, ingredients, description, img, time) {
-            $http.post("http://localhost:8888/Babi/myApp/www/php/addRecette.php?name=" + name + "&ingredients=" + ingredients + "&description=" + description + "&img=" + img + "&time=" + time).success(function (data) {
+            $http.post("http://marion-chevalier.com/myApp/php/addRecette.php?name=" + name + "&ingredients=" + ingredients + "&description=" + description + "&img=" + img + "&time=" + time).success(function (data) {
             });
         };
 })
