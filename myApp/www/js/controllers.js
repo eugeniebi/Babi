@@ -84,9 +84,7 @@ angular.module('starter.controllers', [])
 
 .controller('AddCtrl', function($scope, $stateParams) {
   $scope.addRecette = function (name, ingredients, description, img, time) {
-            var newDate = new Date();
-            var add_date = newDate.getTime();
-            $http.post("http://marion.fr/projets/learneat/ajax/addRecette.php?name=" + name + "&ingredients=" + ingredients + "&description=" + description + "&img=" + img + "&price=" + price + "&time=" + time + "&fbpicture=" + fbpicture + "&add_date=" + add_date).success(function (data) {
+            $http.post("http://localhost/Babi/myApp/www/php/addrecette.php?name=" + name + "&ingredients=" + ingredients + "&description=" + description + "&img=" + img + "&time=" + time).success(function (data) {
             });
         };
 })
