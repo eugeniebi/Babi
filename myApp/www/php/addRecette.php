@@ -2,8 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors',1);
 
-mysql_connect("localhost","root","root");
-mysql_select_db("apprecette");
+
 //mysql_query("INSERT INTO recette(`name`, `ingredients`, `description`, `img`, `time`)VALUES('".$name."','".$ingredients."','".$description."','".$img."','".$time."')");
 
 	//http://stackoverflow.com/questions/18382740/cors-not-working-php
@@ -25,6 +24,18 @@ mysql_select_db("apprecette");
         exit(0);
     }
 
+define('SQL_HOST',       'localhost');
+define('SQL_USERNAME',   'root');
+define('SQL_PASSWORD',   'root');
+define('SQL_DBNAME',     'apprecette');
+
+try {
+    $db = new PDO('mysql:dbname='.SQL_DBNAME.';host='.SQL_HOST, SQL_USERNAME, SQL_PASSWORD, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+}
+
+catch(Exception $e) {
+    exit('Erreur : ' . $e->getMessage());
+}
 //require_once '../includes/db.php'; // The mysql database connection script
 
 if(isset($_GET['name'])){

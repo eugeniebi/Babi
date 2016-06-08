@@ -146,6 +146,16 @@ $ionicConfigProvider.navBar.alignTitle('center');
         }
       }
       })
+
+    .state('app.internaute', {
+      url: '/internaute',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/internaute.html',
+          controller: 'InternauteCtrl'
+        }
+      }
+      })
     
 
   .state('app.single', {

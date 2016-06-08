@@ -82,9 +82,12 @@ angular.module('starter.controllers', [])
 .controller('Recette8Ctrl', function($scope, $stateParams) {
 })
 
-.controller('AddCtrl', function($scope, $stateParams) {
+.controller('InternauteCtrl', function($scope, $stateParams) {
+})
+
+.controller('AddCtrl', function($scope, $stateParams, $http) {
   $scope.addRecette = function (name, ingredients, description, img, time) {
-            $http.post("http://localhost/Babi/myApp/www/php/addrecette.php?name=" + name + "&ingredients=" + ingredients + "&description=" + description + "&img=" + img + "&time=" + time).success(function (data) {
+            $http.post("http://localhost:8888/Babi/myApp/www/php/addRecette.php?name=" + name + "&ingredients=" + ingredients + "&description=" + description + "&img=" + img + "&time=" + time).success(function (data) {
             });
         };
 })
