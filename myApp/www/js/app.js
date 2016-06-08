@@ -136,6 +136,16 @@ $ionicConfigProvider.navBar.alignTitle('center');
         }
       }
       })
+
+    .state('app.add', {
+      url: '/add',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/add.html',
+          controller: 'AddCtrl'
+        }
+      }
+      })
     
 
   .state('app.single', {

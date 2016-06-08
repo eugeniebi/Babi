@@ -82,6 +82,18 @@ angular.module('starter.controllers', [])
 .controller('Recette8Ctrl', function($scope, $stateParams) {
 })
 
+.controller('AddCtrl', function($scope, $stateParams) {
+  $scope.addRecette = function (name, ingredients, description, img, price, time,fbuser, fbid, fbpicture, add_date) {
+            var newDate = new Date();
+            var add_date = newDate.getTime();
+            var fbuser =  auth.profile.name;
+            var fbid =  auth.profile.user_id;
+            var fbpicture =  auth.profile.picture_large;
+            $http.post("http://marion.fr/projets/learneat/ajax/addRecette.php?name=" + name + "&ingredients=" + ingredients + "&description=" + description + "&img=" + img + "&price=" + price + "&time=" + time + "&fbpicture=" + fbpicture + "&add_date=" + add_date).success(function (data) {
+            });
+        };
+})
+
 .directive('elasticImage', function($ionicScrollDelegate) {
   return {
     restrict: 'A',
