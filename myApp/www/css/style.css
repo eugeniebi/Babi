@@ -265,7 +265,9 @@ input.ng-pristine{ border-color: #FFB19F;
 .button.button-calm{background-color: red!important;}
 /* FIN PAGE AJOUT RECETTE*/
 
-
+.aff{width: 92%;
+    margin-left: 4%;
+    box-shadow: 2px 2px 5px #C7C7C7;}
 
 
 

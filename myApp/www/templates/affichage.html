@@ -1,12 +1,14 @@
 <ion-view view-title="Recettes des Internautes">
   <ion-content>
-	<div ng-repeat="donnee in recettes">
-		<p>{{donnee.name}}</p>
+
+	<div ng-repeat="donnee in recettes"class="aff">
+		<h5>{{donnee.name}}</h5>
 		<p>{{donnee.ingredients}}</p>
 		<p>{{donnee.description}}</p>
 		<p>{{donnee.img}}</p>
 		<p>{{donnee.time}}</p>
 	</div>
+
   </ion-content>
 
 </ion-view>

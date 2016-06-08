@@ -86,9 +86,9 @@ angular.module('starter.controllers', [])
   affichageRecette();
   function affichageRecette(){
     $http.post("http://marion-chevalier.com/myApp/php/affichage.php").success(function (data){
-      $scope.recettes=data;
+      $scope.recettes = data;
       console.log(data);
-    })
+    });
   }
 })
 

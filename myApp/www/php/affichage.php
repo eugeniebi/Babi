@@ -34,7 +34,7 @@ catch(Exception $e) {
 }
 //require_once '../includes/db.php'; // The mysql database connection script
 
-$sql = "SELECT * FROM recette1 ORDER BY ID DESC";
+$sql = "SELECT id, name, ingredients, description, img, time FROM recette1 ORDER BY ID DESC";
 $req = $db->prepare($sql);
 $req->execute();
 $result = $req->fetchAll(PDO::FETCH_ASSOC);
@@ -43,8 +43,6 @@ $arr = array();
 foreach($result as $val){
     $arr[] = $val;
 }
-
-var_dump($arr);
 
 # JSON-encode the response
 echo $json_response = json_encode($arr);
