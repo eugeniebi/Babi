@@ -127,16 +127,6 @@ $ionicConfigProvider.navBar.alignTitle('center');
       }
     })
 
-    .state('app.ajout', {
-    url: '/ajout',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/ajout.html',
-        controller: 'AjoutCtrl'
-      }
-    }
-    })
-
     .state('app.playlists', {
       url: '/playlists',
       views: {

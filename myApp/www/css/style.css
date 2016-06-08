@@ -220,7 +220,9 @@ font-family: 'Dosis', sans-serif;
 
 .border {
     height: auto;
-    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     padding: 0;
     box-shadow: 2px 2px 5px #C7C7C7;
 }
@@ -244,6 +246,5 @@ h5{
     text-align: center;
     color: #FFB19F;
 }
-
 
 /* FIN PAGE HOME*/

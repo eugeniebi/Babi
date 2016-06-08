@@ -82,10 +82,6 @@ angular.module('starter.controllers', [])
 .controller('Recette8Ctrl', function($scope, $stateParams) {
 })
 
-.controller('AjoutCtrl', function($scope, $stateParams) {
-})
-
-
 .directive('elasticImage', function($ionicScrollDelegate) {
   return {
     restrict: 'A',
