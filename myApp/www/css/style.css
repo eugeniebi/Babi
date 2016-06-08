@@ -221,6 +221,7 @@ font-family: 'Dosis', sans-serif;
 .border {
     box-shadow: 2px 2px 5px #C7C7C7;
     margin: 3px;
+    padding: -2px;
 }
 
 .border p {
