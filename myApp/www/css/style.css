@@ -12,6 +12,7 @@
 .coupc{
     padding: 0px!important;
     margin-top: -7px;
+    background-color: #FFB19F;
 }
  /*h3 titre display: ans le coup de coeur*/
 h3{
@@ -280,16 +281,25 @@ input.ng-pristine{
     background-color:rgba(255, 177, 159, 0.34);
 }
 .button.button-calm{
-    background-color: red!important;
+    background-color:#FFB19F!important;
     margin-left: auto;
     width: 95%;
 }
-
+.critere{margin-left: 10%;}
 /* FIN PAGE AJOUT RECETTE*/
+
+/* PAGE AFFICHAGE RECETTE*/
 
 .aff{width: 92%;
     margin-left: 4%;
-    box-shadow: 2px 2px 5px #C7C7C7;}
+    box-shadow: 2px 2px 5px #C7C7C7;
+    }
+.aff h4{
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+    color: #FFB19F;
+}
 
-.critere{margin-left: 10%;}
+/* FIN PAGE AFFICHAGE RECETTE*/
+
 
