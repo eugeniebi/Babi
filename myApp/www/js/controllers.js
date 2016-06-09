@@ -93,8 +93,8 @@ angular.module('starter.controllers', [])
 })
 
 .controller('AddCtrl', function($scope, $stateParams, $http) {
-  $scope.addRecette = function (name, ingredients, description, img, time) {
-            $http.post("http://marion-chevalier.com/myApp/php/addRecette.php?name=" + name + "&ingredients=" + ingredients + "&description=" + description + "&img=" + img + "&time=" + time).success(function (data) {
+  $scope.addRecette = function (name, ingredients, description, time) {
+            $http.post("http://marion-chevalier.com/myApp/php/addRecette.php?name=" + name + "&ingredients=" + ingredients + "&description=" + description + "&img=&time=" + time).success(function (data) {
             });
         };
 })
