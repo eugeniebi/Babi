@@ -1,4 +1,11 @@
 
+@font-face {
+    font-family: 'Lobstercursive';
+    src: url('https://fonts.googleapis.com/css?family=Lobster') format('woff');
+    font-weight: 400;
+}
+
+
 /* PAGE COUPS COEUR*/
 
 .coupc{
