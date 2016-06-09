@@ -1,7 +1,8 @@
 
 @font-face {
-    font-family: 'Lobstercursive';
-    src: url(https://fonts.gstatic.com/s/lobster/v18/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+    font-family: 'Lobster';
+    font-style: normal;
+    src: local('Lobster'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v18/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
     font-weight: 400;
 }
 
