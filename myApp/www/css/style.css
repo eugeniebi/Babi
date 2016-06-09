@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'Lobstercursive';
-    src: url('https://fonts.googleapis.com/css?family=Lobster') format('woff');
+    src: url(https://fonts.gstatic.com/s/lobster/v18/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
     font-weight: 400;
 }
 
@@ -103,6 +103,13 @@ p{
     margin-top: -7px;
     margin-left: 40%;
 }
+
+.iconc2{
+    width: 20%;
+    margin-top: -7px;
+    
+}
+
 .etiquettehome {
     
     width: 30%;
@@ -237,7 +244,8 @@ font-family: 'Dosis', sans-serif;
 }
 
 .R{
-    margin-bottom: 15px;
+    
+    margin-left: -2%;
 }
 
 .imgh{
