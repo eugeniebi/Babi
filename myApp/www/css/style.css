@@ -254,20 +254,26 @@ form {
 
 }
 textarea{
-    border-color: #FFB19F;
-    border-width: 1.5px;
-    border-style: solid;
+
+    background-color:rgba(255, 177, 159, 0.34);
 }
 
-input.ng-pristine{ border-color: #FFB19F;
-    border-width: 1.5px;
-    border-style: solid;}
-.button.button-calm{background-color: red!important;}
+input.ng-pristine{ 
+    -webkit-border-radius:200px;
+    border-radius:200px;
+    background-color:rgba(255, 177, 159, 0.34);
+}
+.button.button-calm{
+    background-color: red!important;
+    margin-left: auto;
+    width: 95%;
+}
+
 /* FIN PAGE AJOUT RECETTE*/
 
 .aff{width: 92%;
     margin-left: 4%;
     box-shadow: 2px 2px 5px #C7C7C7;}
 
-
+.critere{margin-left: 10%;}
 

@@ -14,17 +14,14 @@
                     <textarea placeholder="Recette" name="descriptionInput" ng-model="descriptionInput" rows="8" ng-minlength="20" required></textarea>
                 </label>
                 <label class="itemform item-input">
-                    <input type="file" ng-model="imgInput">
-                </label>
-                <label class="itemform item-input">
                     <input type="number" name="timeInput" ng-model="timeInput" placeholder="Temps de réalisation">
                 </label>
 
-                <div class="">
+                <div class="critere">
                     <p ng-show="addForm.nameInput.$error.required">* Un nom de recette est requis</p>
                     <p ng-show="addForm.nameInput.$error.minlength">* Le nom de recette n'a pas assez de caractères</p>
 
-                    <p ng-show="addForm.ingredientsInput.$error.required">* Des ingrédients sont requis</p>s
+                    <p ng-show="addForm.ingredientsInput.$error.required">* Des ingrédients sont requis</p>
 
                     <p ng-show="addForm.descriptionInput.$error.required">* Une recette est requise</p>
 
@@ -33,7 +30,7 @@
 
                 <button class="button button-block button-calm" type="submit" ng-disabled="addForm.$invalid" ng-click="addRecette(nameInput, ingredientsInput, descriptionInput, imgInput, timeInput)">
                     <i class="fa fa-plus"> </i> Valider
-                </button>
+                </button></a>
             </form>
         </div>
     </ion-content>

@@ -45,6 +45,7 @@ if(isset($_GET['name'])){
     $req = $db->prepare($sql);
     $result = $req->execute();
     
+   
     echo $json_response = json_encode($result);
 }
 ?>
