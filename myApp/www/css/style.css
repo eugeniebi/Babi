@@ -31,6 +31,7 @@ h3{
     color: white;
     font-family: 'Dosis', sans-serif;
     text-align: center;
+    padding-bottom: 8%;
 }
 .grandediv{
      background-color: #FFB19F;
@@ -289,6 +290,7 @@ form {
 textarea{
 
     background-color:rgba(255, 177, 159, 0.34);
+    border-radius: 10px;
 }
 
 input.ng-pristine{ 
@@ -302,6 +304,8 @@ input.ng-pristine{
     width: 95%;
 }
 .critere{margin-left: 10%;}
+
+
 /* FIN PAGE AJOUT RECETTE*/
 
 /* PAGE AFFICHAGE RECETTE*/
