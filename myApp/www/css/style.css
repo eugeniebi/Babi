@@ -24,20 +24,6 @@ h3{
 
 /* FIN PAGE COUPS COEUR*/
 
-
-/* PAGE HOME*/
-.slider{
-    height: 300px;
-    background-color: #eee;
-}
-
-.span{
-    color:#FFB19F;
-}
-/* FIN PAGE HOME*/
-
-
-
 /* PAGE RECETTE TYPE*/
 
 /* titres de la recette */
@@ -229,9 +215,10 @@ h1{
 
 /**PAGE HOME*/
 h4{
-    color: black;
-font-size: 18px;
-font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #7F7D7D;
+    font-size: 18px;
 }
 
 .border {
@@ -259,6 +246,22 @@ h5{
     font-family: 'Lobster', cursive;
     text-align: center;
     color: #FFB19F;
+    font-size: 15px;
+}
+
+.slider{
+    height: 300px;
+    background-color: #eee;
+}
+
+.span{
+    color:#FFB19F;
+}
+
+.textehome p{
+    color: #7F7D7D;
+    font-size: 14px;
+    margin: 4px;
 }
 
 /* FIN PAGE HOME*/
