@@ -157,6 +157,16 @@ $ionicConfigProvider.navBar.alignTitle('center');
       }
       })
 
+    .state('app.recette9', {
+      url: '/recette9',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/recette9.html',
+          controller: 'Recette9Ctrl'
+        }
+      }
+      })
+
   .state('app.single', {
     url: '/playlists/:playlistId',
     views: {

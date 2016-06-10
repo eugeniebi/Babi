@@ -82,6 +82,9 @@ angular.module('starter.controllers', [])
 .controller('Recette8Ctrl', function($scope, $stateParams) {
 })
 
+.controller('Recette9Ctrl', function($scope, $stateParams) {
+})
+
 .controller('AffichageCtrl', function($scope, $stateParams, $http) {
   affichageRecette();
   function affichageRecette(){
